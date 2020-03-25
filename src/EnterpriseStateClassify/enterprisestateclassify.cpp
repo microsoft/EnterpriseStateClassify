@@ -201,7 +201,7 @@ int __cdecl wmain(int argc, wchar_t **argv)
     {
         OpType = OP_TYPE_CONNECTLOOP;
     }
-    else if (lstrcmpiW(L"ConnectLoopFast", argv[ARG_TYPE_OPERATION]) == 0)
+    else if (lstrcmpiW( L"ConnectLoopFast", argv[ARG_TYPE_OPERATION] ) == 0)
     {
         OpType = OP_TYPE_CONNECTLOOPFAST;
     }
