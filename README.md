@@ -1,3 +1,34 @@
+# About
+
+This tool helps to classify the enterprise state of a target on the network.
+It will identify the target as PERSONAL or return the enterprise ID of the corporate resource.
+
+# Usage
+
+Prebuilt binaries are available in the Releases section: https://github.com/microsoft/EnterpriseStateClassify/releases
+
+To use this tool, simply run:
+
+	EnterpriseStateClassify.exe Connect <FLAG> <TARGET> 
+
+# Examples
+
+On the microsoft corporate network,
+
+"EnterpriseStateClassify.exe Connect 3 fb.com" will return:
+
+	The target fb.com
+	 Enterprise state: PERSONAL
+
+"EnterpriseStateClassify.exe Connect 3 msw" will return:
+
+	The target: msw
+ 	 Enterprise state: EnterpriseId=corp.microsoft.com
+
+# Building
+
+Use Visual Studio to build project solution
+
 
 # Contributing
 
