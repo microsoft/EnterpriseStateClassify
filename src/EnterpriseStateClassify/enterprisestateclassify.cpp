@@ -1,4 +1,5 @@
-// Copyright (C) Microsoft Corporation
+// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
 //
 // EnterpriseStateClassify Usage:
 //   EnterpriseStateClassify Connect <FLAGS> <TARGET> - Get enterprise state of target
